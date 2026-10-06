@@ -1,0 +1,119 @@
+---
+import "../styles/global.css";
+const title = "Tran Chanh Dat | Mechanical × Computational Science";
+const description = "Mechanical Engineering, CAE and Computational Science portfolio.";
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content={description} />
+  <title>{title}</title>
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#top">TCD<span>.</span></a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#research">CSE</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">MECHANICAL ENGINEERING × COMPUTATIONAL SCIENCE</p>
+    <h1>Building at the intersection of <span>mechanical systems</span> and computation.</h1>
+    <p class="lead">Mechanical engineer focused on Design, Precision Engineering and CAE, developing toward Numerical Analysis, PDEs, Scientific Computing and Computational Engineering.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">Explore projects</a>
+      <a class="btn" href="#about">About me</a>
+    </div>
+  </div>
+  <div class="hero-card">
+    <div class="orb"></div>
+    <p>01 — DESIGN</p>
+    <p>02 — PRECISION</p>
+    <p>03 — CAE</p>
+    <p>04 — SCIENTIFIC COMPUTING</p>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-head">
+    <span>01</span><h2>About</h2>
+  </div>
+  <div class="two-col">
+    <div>
+      <h3>From physical systems to mathematical models.</h3>
+      <p>I am a Mechanical Engineering graduate from Vietnam, building a technical profile around mechanical design, precision engineering and CAE while preparing for graduate study in Computational Science & Engineering.</p>
+      <p>My long-term direction is to connect engineering intuition with mathematics, numerical methods, simulation, optimization and scientific machine learning.</p>
+    </div>
+    <div class="facts">
+      <div><b>Education</b><span>B.Eng. Mechanical Engineering</span></div>
+      <div><b>Current focus</b><span>Design · Precision · CAE</span></div>
+      <div><b>Future MSc</b><span>CSE / Scientific Computing</span></div>
+      <div><b>Interests</b><span>Numerical PDE · FEM · Optimization · UQ · SciML · HPC</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section dark">
+  <div class="section-head"><span>02</span><h2>Selected Projects</h2></div>
+  <p class="section-intro">A project architecture designed to show engineering depth, mathematical reasoning and reproducible computation.</p>
+  <div class="project-grid">
+    <article class="project"><small>MECHANICAL · PRECISION</small><h3>Precision Ball-Screw Linear Stage</h3><p>Design a compact precision positioning stage with tolerance stack-up, stiffness analysis, bearing selection and alignment strategy.</p><div class="tags"><span>CAD</span><span>Tolerance</span><span>FEA</span></div></article>
+    <article class="project"><small>MECHANICAL · DESIGN</small><h3>Planetary Precision Gearbox</h3><p>Parametric gear-train design with load analysis, transmission ratio, efficiency and manufacturability constraints.</p><div class="tags"><span>CAD</span><span>Machine Design</span><span>Python</span></div></article>
+    <article class="project"><small>CAE · NUMERICAL</small><h3>FEA Verification Study</h3><p>Compare analytical and finite-element solutions, then quantify mesh convergence, discretization error and sensitivity.</p><div class="tags"><span>FEM</span><span>Convergence</span><span>Python</span></div></article>
+    <article class="project"><small>CSE · PDE</small><h3>Numerical PDE Solver</h3><p>Implement finite-difference methods for model elliptic and parabolic PDEs with stability, consistency and convergence studies.</p><div class="tags"><span>NumPy</span><span>PDE</span><span>C++</span></div></article>
+    <article class="project"><small>CSE · FEM</small><h3>2D Finite Element Solver</h3><p>Build a small educational FEM code from weak formulation to assembly, boundary conditions and post-processing.</p><div class="tags"><span>FEM</span><span>Linear Algebra</span><span>Python</span></div></article>
+    <article class="project"><small>SCIENTIFIC ML</small><h3>Engineering Surrogate Model</h3><p>Learn a reduced-order approximation of an expensive simulation and evaluate accuracy, uncertainty and generalization.</p><div class="tags"><span>SciML</span><span>ROM</span><span>UQ</span></div></article>
+  </div>
+</section>
+
+<section id="research" class="section">
+  <div class="section-head"><span>03</span><h2>CSE Roadmap</h2></div>
+  <div class="roadmap">
+    <div><b>01</b><span>Mathematical foundations</span><em>Linear Algebra · Analysis · ODE</em></div>
+    <div><b>02</b><span>Numerical Analysis</span><em>Approximation · Stability · Convergence</em></div>
+    <div><b>03</b><span>PDE & Discretization</span><em>FDM · FEM · FVM</em></div>
+    <div><b>04</b><span>Optimization & UQ</span><em>Inverse Problems · Sensitivity · Bayesian methods</em></div>
+    <div><b>05</b><span>Scientific ML</span><em>ROM · Neural operators · Physics-informed learning</em></div>
+    <div><b>06</b><span>HPC & Research</span><em>C++ · PETSc · FEniCSx · OpenFOAM</em></div>
+  </div>
+</section>
+
+<section id="skills" class="section soft">
+  <div class="section-head"><span>04</span><h2>Technical Stack</h2></div>
+  <div class="skill-columns">
+    <div><h3>Engineering</h3><p>Mechanical Design · Engineering Drawing · GD&T · Machine Elements · Manufacturing · Precision Engineering · CAE</p></div>
+    <div><h3>Computational</h3><p>Python · C++ · MATLAB · NumPy · SciPy · FEniCSx · PETSc · OpenFOAM</p></div>
+    <div><h3>Methods</h3><p>FEM · FDM · FVM · Numerical Linear Algebra · Optimization · UQ · Scientific ML · HPC</p></div>
+  </div>
+</section>
+
+<section class="section thesis">
+  <div class="quote">“The goal is not only to simulate an engineering system, but to understand the mathematics that makes the simulation trustworthy.”</div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="section-head"><span>05</span><h2>Contact</h2></div>
+  <p>For engineering projects, graduate study, research collaboration or technical opportunities.</p>
+  <div class="contact-links">
+    <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+    <a href="#" aria-label="LinkedIn placeholder">LinkedIn ↗</a>
+    <a href="mailto:your.email@example.com">Email ↗</a>
+  </div>
+</section>
+</main>
+
+<footer><span>© 2026 Tran Chanh Dat</span><span>Mechanical Engineering → Computational Engineering</span></footer>
+<script>document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const el=document.querySelector(a.getAttribute('href'));if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth'})}}));</script>
+
+</body>
+</html>
